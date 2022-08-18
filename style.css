@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    position: relative;
+    height: 100vh;
+}
+
+.center-div {
+    background-color: hsl(213, 19%, 18%);
+    height: 370px;
+    width: 370px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Overpass', sans-serif;
+    border-radius: 30px;
+}
+
+.numbers {
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+}
+
+.center-text-div {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    justify-content: space-around;
+}
+
+.circle-border {
+    background-color: hsl(210, 8.8%, 26.7%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle-border img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: none;
+}
+
+.allnumbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.allnumbers button {
+    border-style: none;
+    background-color: hsl(210, 8.8%, 26.7%);
+}
+
+.allnumbers button:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.btn button {
+    height: 40px;
+    width: 320px;
+    border-radius: 25px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.btn button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.text h2 {
+    margin: 8px 0px;
+    color: white;
+}
